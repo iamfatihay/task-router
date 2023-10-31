@@ -10,8 +10,7 @@ const MyNavbar = () => {
     <Navbar bg="light" expand="lg">
       <Container fluid>
         <Link to="/">
-          
-          <img alt="logo" src={logo} />
+          <img className="logo" style={{ width: '30%', marginLeft:'2rem' }} alt="logo" src={logo} />
         </Link>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
@@ -20,21 +19,23 @@ const MyNavbar = () => {
             style={{ maxHeight: "100px" }}
             navbarScroll
           >
-            <NavLink className="nav-link" to="/" style={({isActive})=>({color:isActive && "red"})} >Home</NavLink>
-
-            <NavLink className="nav-link" to="/teacher" style={({isActive})=>({backgroundColor:isActive && "red"})} >Teacher</NavLink>
-
-            <NavLink className="nav-link" to="/courses" style={({isActive})=>({fontSize:isActive && "50px"})} >Courses</NavLink>
-
-            <NavLink className="nav-link" to="/contact" style={({isActive})=>({border:isActive ? "2px solid red" : "1px solid blue"})} >Contact</NavLink>
-
+            <NavLink className="nav-link" to="/" style={({ isActive }) => ({ color: isActive && "red" })} >Home</NavLink>
+            <NavLink className="nav-link" to="/details" style={({ isActive }) => ({ color: isActive && "red" })} >Details</NavLink>
             <a
-              href="https://github.com/clarusway/clarusway-FS-DE-04-TR"
+              href="https://github.com/iamfatihay"
               className="nav-link"
               target="_blank"
               rel="noreferrer"
             >
               Github
+            </a>
+            <a
+              href="https://portfolio-fay-react.netlify.app/"
+              className="nav-link"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Portfolio
             </a>
           </Nav>
         </Navbar.Collapse>
