@@ -8,15 +8,15 @@ import logo from "../img/logo.gif";
 const MyNavbar = () => {
   return (
     <Navbar bg="light" expand="lg">
-      <Container fluid>
+      <Container fluid className="d-flex ">
         <Link to="/">
-          <img className="logo" style={{ width: '30%', marginLeft:'2rem' }} alt="logo" src={logo} />
+          <img className="logo" alt="logo" src={logo} />
         </Link>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
             className="ms-auto my-2 my-lg-0"
-            style={{ maxHeight: "100px" }}
+            style={{ maxHeight: "160px" }}
             navbarScroll
           >
             <NavLink className="nav-link" to="/" style={({ isActive }) => ({ color: isActive && "red" })} >Home</NavLink>

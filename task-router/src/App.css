@@ -1,0 +1,23 @@
+.App{
+    font-family: monospace;
+    text-align: center;
+}
+
+/* Logo size for small screens*/
+.logo {
+    width: 140px;
+  }
+  
+  /* Logo size for medium and large screens */
+  @media (min-width: 768px) {
+    .logo {
+      width: 300px;
+      margin-left: 5rem;
+    }
+  }
+.nav-link {
+    margin-right: 3rem;
+  }
+.thanks{
+    text-align: center;
+}
