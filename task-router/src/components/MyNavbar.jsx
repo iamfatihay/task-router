@@ -7,7 +7,7 @@ import logo from "../img/logo.gif";
 
 const MyNavbar = () => {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar style={{ background: "linear-gradient(to right, white, #f0f0f0)" }} expand="lg" variant="light">
       <Container fluid className="d-flex ">
         <Link to="/">
           <img className="logo" alt="logo" src={logo} />

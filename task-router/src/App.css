@@ -11,13 +11,16 @@
   /* Logo size for medium and large screens */
   @media (min-width: 768px) {
     .logo {
-      width: 300px;
+      width: 200px;
       margin-left: 5rem;
     }
   }
 .nav-link {
     margin-right: 3rem;
   }
-.thanks{
+.text{
     text-align: center;
+    font-weight: 600;
+    font-size: x-large;
+    margin-top: 3rem;
 }
