@@ -2,8 +2,6 @@ import { Navbar, Container, Nav } from "react-bootstrap";
 import { Link, NavLink } from "react-router-dom";
 import logo from "../img/logo.gif";
 
-//!react-bootstrap MyNavbar component
-
 
 const MyNavbar = () => {
   return (
