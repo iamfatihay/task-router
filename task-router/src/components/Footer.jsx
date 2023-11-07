@@ -6,6 +6,7 @@ const Footer = () => {
     <div>
       <Navbar className="justify-content-center bg-dark p-4 text-light fixed-bottom">
         <p > Copyright {new Date().getFullYear()} </p>
+        <p></p>
       </Navbar>
     </div>
   )
